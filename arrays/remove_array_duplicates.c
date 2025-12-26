@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-void ukloniDuplikate (int niz[], int n) {
-int skladiste[n];
+void ukloniDuplikate(int niz[], int n) {
+    int skladiste[n];
     int i, j;
     int k = 0;   
 
