@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int does_It_Increase (int array[], int n) {
+int doesItIncrease(int array[], int n) {
     int i;
     int warehouse[n];
     int counter = 0;
@@ -28,9 +28,9 @@ int main () {
     int array[] = {2, 4, 6, 8, 10};
     int n = 5;
     
-    int x = does_It_Increase(array, n);
+    int x = doesItIncrease(array, n);
 
-    printf("%d", x);
+    printf("%s", x ? "YES" : "NO");
 
     return 0;
 
