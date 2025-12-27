@@ -33,12 +33,18 @@ int findSecondLargest(int array[], int n) {
 }
 
 int main () {
-    int array[] = {9, 3, 2, 1, -5, 4};
+    int array[] = {8, 9, 3, -5, 2, 7};
     int n = 6;
 
     int a = findSecondLargest(array, n);
 
-    printf("The second largest element in an array: %d ", a);
+    if (a == 0) {
+        printf("No second largest element in an array.");
+    }
+    else {
+        printf("The second largest element in an array: %d ", a);
+
+    }
 
     return 0;
 }
