@@ -33,7 +33,7 @@ void appearTwice(int array[], int n) {
 }
 
 int main () {
-    int array[] = {1, 4, 4, 2, 3, 1, 2};
+    int array[] = {1, 4, 4, 2, 3, 1, 2, };
     int n = 7;
 
     appearTwice(array, n);
