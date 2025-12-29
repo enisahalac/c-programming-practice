@@ -19,7 +19,6 @@ int main () {
     int a = sumOddNumbers(n);
 
     printf("%d", a);
-
-
+    
     return 0;
 }
