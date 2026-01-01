@@ -6,7 +6,6 @@ int powNumRecursion(int x, int n) {
         return 1;
     }
 
-   
     return  x * powNumRecursion(x, n-1);
 }
 
