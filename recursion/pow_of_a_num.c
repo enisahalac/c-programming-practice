@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <math.h>
 
 int powNumRecursion(int x, int n) {
     if (n == 0) {
         return 1;
     }
 
-   
     return  x * powNumRecursion(x, n-1);
 }
 
