@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-int findMaxRecursion(int array[], int n, int i, int max) {
-    if (i == n) {
+int findMaxRecursion(int array[], int n) {
+    if (n == 1) {
+        return array[0];
+    }
+
+    int max = findMaxRecursion(array, n-1);
+
+    if (array[n-1] > max) {
+        return array[n-1];
+    }
+    else {
         return max;
     }
-
-    if (max < array[i]) {
-        max = array[i];
-    }
-
-    return findMaxRecursion(array, n, i+1, max);
 }
 
-int main () {
-        int array[] = {1, 4, 6, 8, 2, 3};
-        int n = 6;
-        int i = 0;
-        int max = 0;
 
-        int x = findMaxRecursion(array, n, i, max);
+int main () {
+        int array[] = {-1, -2, -3, -4, -5, -6};
+        int n = 6;
+    
+        int x = findMaxRecursion(array, n);
 
         printf("%d", x);
 
