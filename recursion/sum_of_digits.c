@@ -9,7 +9,15 @@ int sumDigitsRec(int n) {
 }
 
 int sumDigits(int n) {
-    return sumDigitsRec(n);
+    int sum = 0;
+
+    while (n > 0) {
+        sum += n % 10;
+        n = n / 10;
+    }
+
+    return sum;
+    
 }
 
 int main () {
@@ -18,9 +26,7 @@ int main () {
     printf("Enter a num: ");
     scanf("%d", &n);
 
-    int x = sumDigits(n);
-
-    printf("%d", x);
+    printf("%d", sumDigits(n));
 
     return 0;
 }
