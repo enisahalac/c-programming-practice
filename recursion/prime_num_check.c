@@ -26,7 +26,6 @@ int primeNumRec(int n) {
 
 int main () {
     int n;
-    int i;
 
     printf("Enter a number: ");
     scanf("%d", &n);
