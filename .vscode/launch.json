@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Hp/Desktop/workspace/c-programming-practice/arrays",
-      "program": "c:/Users/Hp/Desktop/workspace/c-programming-practice/arrays/build/Debug/outDebug",
+      "cwd": "c:/Users/Hp/Desktop/workspace/c-programming-practice/loops and if-else",
+      "program": "c:/Users/Hp/Desktop/workspace/c-programming-practice/loops and if-else/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
