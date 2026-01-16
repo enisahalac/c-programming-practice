@@ -10,7 +10,7 @@ int main () {
     
     for (i = 0; i < 7; i++) {
         if (niz[i] % 2 == 0) {
-            brojac_parnih += 1; // 1, 
+            brojac_parnih += 1; 
         }
     }
     
