@@ -8,7 +8,7 @@ int palindrome(int array[], int n) {
     for (i = 0; i < n; i++) {
         if (array[i] == array[n-count]) {
             existence = 1;
-            count++;
+            count += 1;
         }
         else {
             existence = 0;
