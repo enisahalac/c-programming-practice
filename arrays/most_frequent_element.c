@@ -29,7 +29,7 @@ int main() {
     int niz[] = {2, 1, 3, 2};
     int n = 4;
     
-    printf("Element koji se pojavljuje najvise: %d", najcesciElement(niz, n));
+    printf("Element u nizu koji se pojavljuje najvise: %d", najcesciElement(niz, n));
 
     return 0;
     
