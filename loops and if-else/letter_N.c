@@ -5,7 +5,7 @@ int main() {
     int i, j;
     
     do {
-        printf("Enter a number: ");
+        printf("Enter a num: ");
         scanf("%d", &n);
     } while (n <= 4);
 
