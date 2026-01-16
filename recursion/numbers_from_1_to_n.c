@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-void numbersOneToNRecursion(int n) {
+void numbersOneToNRec(int n) {
     if (n == 0) {
         return;
     }
 
-    numbersOneToNRecursion(n-1);
+    numbersOneToNRec(n-1);
     printf("%d ", n);
 }
 
 int main () {
     int n = 5;
 
-    numbersOneToNRecursion(n);
+    numbersOneToNRec(n);
 
     return 0;
 }
