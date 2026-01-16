@@ -3,7 +3,7 @@
 int main() {
     int x, z;
     
-    printf("Enter a num: ");
+    printf("Enter a number: ");
     scanf("%d", &x);
     
     printf("Digit to discard: ");
