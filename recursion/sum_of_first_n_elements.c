@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-int sumOneToNRecursion(int n) {
+int sumOneToNRec(int n) {
     if (n == 0) {
         return 0;
     }
 
-    return n + sumOneToNRecursion(n-1);
+    return n + sumOneToNRec(n-1);
 }
 
 int main () {
     int n = 5;
 
-    int a = sumOneToNRecursion(n);
+    int a = sumOneToNRec(n);
 
     printf("%d", a);
 
