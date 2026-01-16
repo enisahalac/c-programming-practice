@@ -2,8 +2,7 @@
 
 int main() {
     int n;
-    int primeNum = 1;
-    int i;
+    int primeNum = 1, i;
     
     printf("Enter a number: ");
     scanf("%d", &n);
