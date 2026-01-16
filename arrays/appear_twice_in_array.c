@@ -9,7 +9,7 @@ void appearTwice(int array[], int n) {
         int count = 0;
         for (j = 0; j < n; j++) {
             if (array[i] == array[j]) {
-                count++;
+                count += 1;
             }
         }
         if (count == 2) {
