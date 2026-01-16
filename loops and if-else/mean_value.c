@@ -5,7 +5,7 @@ int main() {
     int sum = 0;
     int temp = 0;
     
-    printf("Enter a num: ");
+    printf("Enter a number: ");
     scanf("%d", &x);
     
     do {
