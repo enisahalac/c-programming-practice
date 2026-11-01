@@ -13,4 +13,4 @@ int main() {
         printf("%d", niz[i]);
 
     return 0;
-}
+} 
