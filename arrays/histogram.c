@@ -5,7 +5,7 @@ int main() {
 	int brojac[101] = {0};
 
 	printf("Unesite brojeve: ");
-	while(1) {
+	while(1){
 			scanf("%d", &broj);
 
 			if (broj == -1) {
@@ -18,7 +18,7 @@ int main() {
 			}
 
 			brojac[broj]++;
-	}
+		}
 
 	for (i = 0; i <= 100; i++) {
 		if (brojac[i] > 0) {
